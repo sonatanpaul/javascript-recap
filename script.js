@@ -60,3 +60,10 @@ const num = [2, 3, 6, 45, 6];
 console.log(num);
 const newNum = [...num];
 console.log(newNum);
+
+// template string
+
+const fullName = "Sonatan Paul";
+const age = 25;
+const result = `Hi there, my name is ${fullName} and my age is ${age} , Thank you`;
+console.log(result);
